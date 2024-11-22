@@ -1,0 +1,71 @@
+:root{
+    /* -COLORS- */
+    --primaryColor: #6bceec;
+    --secondaryColor: #0c7b9d;
+    --tercearyColor: #98e0f4;
+    --backgourndColor: #ffffff;
+    --textColor: #2d4225;
+    --secondTextColor: #737373;
+    --lightGray: #f8f8f8;
+    --lightTextColor: #fff;
+  
+    /* -FONTS-*/
+    --ff-sans: "Montserrat", system-ui, sans-serif;
+    --fw-base: 400;
+    --fw-md: 500;
+    --fw-bold: 800;
+  
+    --fs-sm: 0.875rem;
+    --fs-base: 1rem;
+    --fs-lg: 1.25rem;
+    --fs-xl: 1.75rem;
+    --fs-2xl: 2.25rem;
+  
+    /* -PADDING- */
+  
+    --py-sm: 0.875rem;
+    --py-base: 1rem;
+    --py-lg: 1.5rem;
+    --py-xl: 3rem;
+    --px-lg: 1.5rem;
+  }
+  
+
+.btn-primary {
+    width: 100%;
+    background: var(--backgourndColor);
+    color: var(--light-text-color);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-sm);
+    padding-block: 0.825rem;
+    padding-inline: 1.5rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: solid transparent 0.15rem;
+    transition-duration: .2s;
+}
+
+.btn-primary:hover {
+    background: var(--backgourndColor);
+    color: var(--secondaryColor);
+    border-color: var(--secondaryColor);
+}
+
+.btn-secondary {
+    width: 100%;
+    background: transparent;
+    color: var(--primary-color);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-sm);
+    padding-block: 0.825rem;
+    padding-inline: 1.5rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: solid var(--primary-color) 0.15rem;
+}
+
+.btn-secondary:hover {
+    background: var(--primary-color);
+    color: var(--light-text-color);
+    border-color: transparent;
+}

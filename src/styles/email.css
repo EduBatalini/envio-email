@@ -1,0 +1,72 @@
+#email {
+    width: 100%;
+    max-width: 500px; /* Limita a largura */
+    margin: 20px auto; /* Centraliza a seção */
+    padding: 20px;
+    background-color: #f9f9f9; /* Fundo claro */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centraliza o conteúdo */
+  }
+  
+  #email h1 {
+    font-size: 1.5rem;
+    color: #333; /* Cor do texto */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+  }
+  
+  #email input {
+    width: 100%; /* Largura total */
+    padding: 10px;
+    margin-bottom: 15px; /* Espaço entre os inputs */
+    border: 1px solid #ccc; /* Borda leve */
+    border-radius: 5px; /* Cantos arredondados */
+    font-size: 1rem;
+    box-sizing: border-box; /* Inclui padding e borda no tamanho total */
+  }
+  
+  #email input:nth-of-type(2) {
+    height: 60px; /* Aumenta a altura do segundo campo */
+  }
+  
+  #email input:focus {
+    border-color: #007bff; /* Cor da borda ao focar */
+    outline: none; /* Remove o contorno padrão */
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5); /* Efeito de brilho */
+  }
+  
+  #email button {
+    width: 100%; /* Botão ocupa toda a largura */
+    padding: 10px;
+    background-color: #007bff; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Suaviza a transição */
+  }
+  
+  #email button:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+  }
+  
+  @media (max-width: 600px) {
+    #email {
+      padding: 15px;
+    }
+  
+    #email h1 {
+      font-size: 1.2rem;
+    }
+  
+    #email input {
+      font-size: 0.9rem;
+    }
+  
+    #email button {
+      font-size: 0.9rem;
+    }
+  }
+  
