@@ -149,6 +149,8 @@ export default function Home() {
                 <form onSubmit={handleSubmit}>
                     <input 
                         type="email" 
+
+                        
                         placeholder="Insira seu email" 
                         value={email} 
                         onChange={(e) => setEmail(e.target.value)} 
